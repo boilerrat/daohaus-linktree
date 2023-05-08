@@ -3,6 +3,10 @@ const media = [
         title: "Discord",
         url: "https://discord.gg/daohaus",
         emoji: "💬",
+      },
+      {
+        title: "Medium",
+        url: "https://medium.com/daohaus-club"
       },     
     {
         title: "Mirror",

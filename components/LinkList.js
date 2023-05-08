@@ -8,6 +8,7 @@ import DAOhausv2 from "@/data/DAOhausV2";
 // Add more imports for each category file here
 
 import tw from "tailwind-styled-components";
+import haustoken from "@/data/haustoken";
 const categories = [
   {
     title: "DAOhaus V3",
@@ -24,6 +25,10 @@ const categories = [
   {
     title: "Media",
     links: media,
+  },
+  {
+    title: "$HAUS Token",
+    links: haustoken,
   },
   {
     title: " Factory Contract Deployments",

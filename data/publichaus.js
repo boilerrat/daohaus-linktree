@@ -10,7 +10,7 @@ const publichaus = [
         emoji: "🏛️",
       },
       {
-        title: "Public Haus Onboarder",
+        title: "Public HAUS Onboarder",
         url: "https://join.daohaus.fun/",
         emoji: "👋",
       },

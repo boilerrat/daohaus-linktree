@@ -11,7 +11,7 @@ function FooterDisclaimer() {
           className="text-yellow-500"
           rel="noopener"
         >
-          DAO Masons
+          BOILER
         </a>
       </p>
       <p className="mb-3">

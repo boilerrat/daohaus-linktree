@@ -19,6 +19,11 @@ const links = [
     url: 'https://github.com/HausDAO',
     emoji: '👨‍💻',
   },
+ {
+    title: 'DAO Toolbox',
+    url: 'https://toolbox.daohaus.fun/',
+    emoji: '🧰',
+  },  
 ];
 
 export default links;

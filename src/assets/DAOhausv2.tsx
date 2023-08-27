@@ -1,21 +1,22 @@
-const DAOhausv2 = [
+import { GiChart, GiMicroscope, GiCartwheel } from "react-icons/gi";
+const DAOhausV2 = [
     {
         title: "V2 Dune Analytics Dashboard",
         url: "https://dune.com/banana/DAO-Haus-and-dollarHAUS-Token",
-        emoji: "📊",
+        icon: < GiChart />,
       },      
       {
         title: "V2 Graph Explorer",
         url: "https://thegraph.com/explorer/subgraph?id=9uvKq57ZiNCdT9uZ6xaFhp3yYczTM4Fgr7CJHM6tdX9H&view=Overview",
-        emoji: "🧮",
+        icon: < GiMicroscope />,
       },
       {
         title: "V2 Hub App",
         url: "https://app.daohaus.club/",
-        emoji: "🏢",
+        icon: < GiCartwheel />,
       },
   
 ];
 
-export default DAOhausv2;
+export default DAOhausV2;
   

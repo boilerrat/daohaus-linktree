@@ -1,39 +1,49 @@
-const DAOhausv3 = [
+// assets/DAOhausV3.ts
+import { GiWizardStaff,
+         GiWhiteBook,
+         GiChessRook,
+         GiDiagram,
+         GiAbacus,
+         GiMagnifyingGlass,
+         GiHobbitDwelling
+         } from "react-icons/gi";
+
+const DAOhausV3 = [
   {
     title: 'Admin App',
     url: 'https://admin.daohaus.fun/',
-    emoji: '🏢',
+    icon: <GiChessRook />
   },
   {
     title: 'Data Dashboard',
     url: 'https://flipsidecrypto.xyz/santtee/dao-haus-dashboard-gP6ort',
-    emoji: '📊',
+    icon: <GiDiagram />,
   },
   {
     title: 'Docs',
     url: 'https://docs.daohaus.club/',
-    emoji: '📖',
+    icon: <GiWhiteBook />,
   },
   {
     title: 'Subgraph',
     url: 'https://thegraph.com/explorer/subgraph?id=GfHFdFmiSwW1PKtnDhhcxhArwtTjVuMnXxQ5XcETF1bP&view=Overview',
-    emoji: '📈',
+    icon: <GiAbacus />,
   },
   {
     title: 'Summon App',
     url: 'https://summon.daohaus.fun/',
-    emoji: '🧙',
+    icon: < GiWizardStaff />,
   },
   {
     title: 'Simple Search',
     url: 'https://simple-search.daohaus.club/',
-    emoji: '🔎',
+    icon: < GiMagnifyingGlass  />,
   },
   {
     title: 'Website',
     url: 'https://daohaus.club/',
-    emoji: '🌐',
+    icon: <GiHobbitDwelling   />
   },
 ];
 
-export default DAOhausv3;
+export default DAOhausV3;

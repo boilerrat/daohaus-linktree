@@ -1,19 +1,27 @@
-# LinkEnt
+# React + TypeScript + Vite
 
->Linktree for DAOhaus protocol and Public Haus built with Next.js and Tailwind.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Thanks to Pieter Montoulieu for providing the [original code](https://github.com/montoulieu/link-ent)
+Currently, two official plugins are available:
 
-## Setup
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### Clone LinkEnt using the "new-leaf" branch
+## Expanding the ESLint configuration
 
-`git clone -b hausLinks git@github.com:boilerrat/link-ent.git`
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-### Install all NPM dependencies
+- Configure the top-level `parserOptions` property like this:
 
-`npm i`
+```js
+   parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+   },
+```
 
-### Start dev server
-
-`npm run dev`
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
